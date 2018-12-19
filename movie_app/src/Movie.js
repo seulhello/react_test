@@ -12,8 +12,8 @@ class Movie extends Component {
   render() {
     return (
       <div>
-        <h1>{this.props.title}</h1>
         <MoivePoster poster={this.props.poster} title={this.props.title} />
+        <h1>{this.props.title}</h1>
       </div>
     )
   }
